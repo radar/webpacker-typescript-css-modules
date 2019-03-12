@@ -3,7 +3,7 @@
 // of the page.
 
 import * as React from 'react'
-import styles from '../hello_react/styles/hello-react'
+import * as styles from '../hello_react/styles/hello-react.module.sass'
 
 const Hello = props => (
   <div className={styles.helloReact}>Hello {props.name}!</div>
