@@ -1,6 +1,10 @@
 {
   "name": "sunday",
   "private": true,
+  "scripts": {
+    "gen-typings": "yarn run tsm app/javascript/**/*.sass",
+    "watch-typings": "yarn run tsm app/javascript/**/*.sass -w"
+  },
   "dependencies": {
     "@babel/preset-react": "^7.0.0",
     "@rails/actioncable": "^6.0.0-alpha",
@@ -19,6 +23,7 @@
   },
   "version": "0.1.0",
   "devDependencies": {
+    "typed-scss-modules": "^0.0.9",
     "webpack-dev-server": "^3.2.1"
   }
 }
